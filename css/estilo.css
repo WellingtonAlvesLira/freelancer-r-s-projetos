@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+ul, a{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 10px;
+    color: rgb(252, 252, 247);
+}
+
+
+a:hover{
+    color: rgb(12, 12, 12);
+    cursor: pointer;
+}
+
+header{
+    height: 130px;
+    background: gray;
+}
+
+.flex-container-navegacao{
+    display: flex;
+    max-width: 992px;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#area_logo{
+    display: flex;
+    align-items: center;
+
+}
+
+#img-logo{
+    border: 1px solid white;
+    width: 120px;
+}
+
+#titulo-logo{
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 25px;
+    color: #080808;
+}
+
+.lista-itens{
+    display: flex; 
+    align-items: center;
+    margin-left: 10px;
+}
+
+#secao-apresentacao{
+    background-color: #080808;
+}
+
+#flex-container-apresentacao{
+    background-color: black;
+    display: flex;
+    height: 600px;
+    margin: 15px auto;
+    justify-content: center;
+    max-width: 990px;
+    align-items: center;
+
+
+}
+
+
+#titulo-apresentacao{
+    color: white;
+    font-size: 48px;
+    max-width: 400px;
+    
+}
+
+#sub-titulo-apresentacao{
+    color: rgba(145, 141, 141, 0.767);
+}
+
+#link-saiba-mais:hover{
+    margin-top: 5px;
+    padding: 1px;
+    background: white;
+    color: black;
+}
+
+#img-apresentacao{
+    width: 500px;
+    height: 500px;
+    box-shadow: 10px 15px 10px rgba(218, 196, 196, 0.164);
+    border-radius: 10px;
+}
+
+#secao-valores{
+    background-color: rgba(173, 168, 168, 0.349);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 700px;
+    
+}
+
+.titulo{
+    width: 600px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+}
+
+.img-valores{
+    width: 170px;
+}
+
+.img-valores:hover{
+    background: white;
+    border-radius: 10px;
+}
+
+.sub-titulo-valores{
+    background: white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+button{
+    width: 500px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+button:hover{
+    background: black;
+    color: whitesmoke;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+#flex-container-servicos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 600px;
+}
+
+.caixa-video{
+    background-color: #080808;
+    padding: 10px;
+    border: 1px solid;
+    width: 350px;
+}
+
+.sub-titulo-servicos{
+    color: aliceblue;
+}
+
+.descricao-servicos{
+    color: aliceblue;
+    word-wrap: break-word;
+}
+
+.link-servicos{
+    color: #093cca;
+}
