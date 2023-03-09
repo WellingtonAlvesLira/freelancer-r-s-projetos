@@ -1,177 +1,150 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
 
-ul, a{
-    list-style: none;
-    text-decoration: none;
-    margin-left: 10px;
-    color: rgb(252, 252, 247);
-}
+    *{
+        margin: 0;
+        padding: 0;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
 
+    }
+    header{
+        border: 1px solid;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(140,140,163,1) 31%, rgba(2,19,23,1) 56%);
 
-a:hover{
-    color: rgb(12, 12, 12);
-    cursor: pointer;
-}
+    }
 
-header{
-    height: 130px;
-    background: gray;
-}
+    #area-logo{
+        width: 1300px;
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-.flex-container-navegacao{
+    #img-logo{
+        width: 150px;
+        border-radius: 10px;
+
+    }
+
+    .link-navegacao{
+        text-decoration: none;
+        margin: 8px;
+        color: white;
+        font-weight: 500;
+    }
+    .link-navegacao:hover{
+        border-bottom: 3px solid white;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    #section-apresentacao{
+        background-image: url('https://premiumplanejados.com.br/wp-content/uploads/2020/12/Qual-a-durabilidade-de-moveis-planejados.jpg');
+        height: 700px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+  #secao-apresentacao{
+    backdrop-filter: blur(5px);
     display: flex;
-    max-width: 992px;
-    width: 100%;
-    justify-content: space-between;
-    margin: auto;
-}
+    max-width: 999px;
+    gap: 30px;
+  } 
 
-#area_logo{
+  #secao-apresentacao-titulos{
     display: flex;
+    flex-direction: column;
     align-items: center;
-
-}
-
-#img-logo{
-    border: 1px solid white;
-    width: 120px;
-}
-
-#titulo-logo{
-    margin-left: 5px;
-    padding: 5px;
-    font-size: 25px;
-    color: #080808;
-}
-
-.lista-itens{
-    display: flex; 
-    align-items: center;
-    margin-left: 10px;
-}
-
-#secao-apresentacao{
-    background-color: #080808;
-}
-
-#flex-container-apresentacao{
-    background-color: black;
-    display: flex;
-    height: 600px;
-    margin: 15px auto;
     justify-content: center;
-    max-width: 990px;
-    align-items: center;
+  }
+    #titulo-secao-apresentacao{
+        color: white;
+        background: rgba(8, 8, 8, 0.445);
+        font-size: 60px;
+        font-weight: 600px;
+   
+    }
 
+    #sub-titulo-secao-apresentacao{
+        color: white;
+        font-size: 24px;
+        background: rgba(8, 8, 8, 0.445);
+        padding: 5px;
+    }
 
-}
-
-
-#titulo-apresentacao{
-    color: white;
-    font-size: 48px;
-    max-width: 400px;
-    
-}
-
-#sub-titulo-apresentacao{
-    color: rgba(145, 141, 141, 0.767);
-}
-
-#link-saiba-mais:hover{
-    margin-top: 5px;
-    padding: 1px;
-    background: white;
-    color: black;
-}
-
-#img-apresentacao{
-    width: 500px;
-    height: 500px;
-    box-shadow: 10px 15px 10px rgba(218, 196, 196, 0.164);
-    border-radius: 10px;
-}
-
-#secao-valores{
-    background-color: rgba(173, 168, 168, 0.349);
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    height: 700px;
-    
-}
-
-.titulo{
-    width: 600px;
-    background-color: white;
-    color: black;
-    padding: 10px;
-    text-align: center;
-    font-size: 30px;
-    margin: auto;
-}
-
-.img-valores{
-    width: 170px;
-}
-
-.img-valores:hover{
-    background: white;
-    border-radius: 10px;
-}
-
-.sub-titulo-valores{
-    background: white;
-    color: black;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-
-button{
-    width: 500px;
+#btn-solicitar-orcamento{
+    cursor: pointer;
+    width: 400px;
     height: 50px;
-    padding: 5px;
-    border-radius: 10px;
+    border-radius: 15px;
+    border-color: white;
+    margin: 10px auto;
+    background: rgb(78, 194, 78);
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
     font-weight: 600;
 }
-
-button:hover{
-    background: black;
-    color: whitesmoke;
-    cursor: pointer;
-    font-weight: 700;
+#btn-solicitar-orcamento:hover{
+    width: 310px;
 }
 
-#flex-container-servicos{
+#section-diferencial-empresa{
     display: flex;
-    align-items: center;
+    height: 500px;
+    background: rgb(196, 191, 191);
+}
+
+#secao-principal-diferencial{
+    color: white;
+    font-weight: 600;
+    margin: auto;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1200px;
+}
+
+
+#titulo-section-diferencial{
+    color: white;
+    border-bottom: 2px solid yellow;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    font-size: 48px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#secao-img-diferencial{
+    display: flex;
     justify-content: space-around;
+}
+
+.img-diferencial{
+    width: 90px;
+    transition: all .5s;
+    border: 10px solid transparent;
+
+}
+
+.img-diferencial:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+#monte-seu-movel{
+    border: 1px solid;
     height: 600px;
 }
 
-.caixa-video{
-    background-color: #080808;
-    padding: 10px;
-    border: 1px solid;
-    width: 350px;
-}
-
-.sub-titulo-servicos{
-    color: aliceblue;
-}
-
-.descricao-servicos{
-    color: aliceblue;
-    word-wrap: break-word;
-}
-
-.link-servicos{
-    color: #093cca;
-}
