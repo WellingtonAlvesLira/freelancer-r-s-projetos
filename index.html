@@ -14,7 +14,11 @@
             <nav>
                 <a class="link-navegacao" href="">Home</a>
                 <a class="link-navegacao" href="">Quem somos</a>
-                <a class="link-navegacao" href="">Serviços</a>
+                <select autofocus name="servicos" id="servico-categoria">
+                    <option value="servico">Nossos Serviços</option>
+                    <option value="sala"><a href="#sala.html">Sala</a></option>
+                    <option value="quarto"><a href="#quarto.html">Quarto</a></option>
+                  </select>
             </nav>
         </div>
     </header>
@@ -41,21 +45,20 @@
             <div id="secao-img-diferencial">
                 <div class="img-diferencial-hover">
                     <img class="img-diferencial" src="img/icons-entrega.png" alt="" srcset="">
-                    <span>Entrega rápida...</span>
+                    <span class="descricao">Entrega rápida...</span>
                 </div>
                 <div class="img-diferencial-hover">
                     <img class="img-diferencial" src="img/icons-focus.png" alt="" srcset="">
-                     <span>Foco no cliente</span>
+                     <span class="descricao">Foco no cliente</span>
                 </div>
                 <div class="img-diferencial-hover">
                     <img class="img-diferencial" src="img/icons-assistencia.png" alt="" srcset="">
-                    <span>Manutenção</span>
+                    <span class="descricao">Manutenção</span>
                 </div>
             </div>
         </div>
     </section>
-    <section id="monte-seu-movel">
-
+    <section id="estatistica">
     </section>
     <script src="js/js.js"></script>    
 </body>
