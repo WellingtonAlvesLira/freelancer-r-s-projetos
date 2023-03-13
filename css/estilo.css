@@ -101,30 +101,25 @@
 #section-diferencial-empresa{
     display: flex;
     height: 500px;
+    justify-content: center;
     background: rgb(196, 191, 191);
 }
 
 #secao-principal-diferencial{
     color: white;
-    font-weight: 600;
-    margin: auto;
-    height: 400px;
+    height: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 50px;
-    max-width: 1200px;
+    justify-content: space-around;
+    max-width: 1100px;
 }
 
 
 #titulo-section-diferencial{
     color: white;
-    border-bottom: 2px solid yellow;
-    width: 300px;
     text-align: center;
-    margin: auto;
-    font-size: 48px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    font-family: Roboto;
 }
 
 #secao-img-diferencial{
@@ -146,21 +141,38 @@
 
 }
 
-.descricao-cor{
-    color: yellow;
+#dicas{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+    margin: auto;
 }
 
-#estatistica{
-    background-color: black;
-    display: block;
-    height: 600px;
+#secao-dicas{
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.descricao-estatistica{
-    color: white; font-size: 60px;
-    display: block;
+.titulo-dicas{
+    color: black;
+    font-family: Roboto;
+    line-height: 2;
+    font-weight: bold;
+    height: 60px;
+    font-size: 35px;
+
+
 }
 
+#secao-dicas p{
+    font-size: 15px;
+    font-family: trebuchet ms, geneva, sans-serif;
+}
 
 /*Se o tamanho da tela for 900 pixels ou menor, é possível configurar uma classe de largura 
 de menus para 600 pixels usando:*/
