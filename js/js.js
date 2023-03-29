@@ -1,6 +1,6 @@
 function mudaDescricao(e) {
-    newDescricao(e);
-    nomePadrao(e);
+    DescricaoNova(e);
+    DescricaoPadrao(e);
 
 
 }
@@ -10,10 +10,10 @@ for (var i = 0; i < descricao.length; i++) {
     descricao[i].addEventListener('mouseover', mudaDescricao, false);
 }
 
-function newDescricao(e){
+function DescricaoNova(e){
     /*Para determinar com qual elemento o mouse interagiu, a função utiliza a propriedade target
     do objeto event*/
-    e.target.style.color = 'black';
+    e.target.style.color = 'yellow';
 
     if (e.target.id == 0) {
         descricao[0].innerHTML = "Venha viver essa experiência";
@@ -29,7 +29,7 @@ function newDescricao(e){
     }
 }
 
-function nomePadrao(e){
+function DescricaoPadrao(e){
     setTimeout(() => {
         e.target.style.color = "";
         descricao[0].innerHTML = "Entrega rápida";
@@ -37,4 +37,13 @@ function nomePadrao(e){
         descricao[2].innerHTML = "Manutenção";
     }, 3000)
 }
+
+function anoAtual(){
+    var dataHoje = new Date()
+    var diaMesAno = ((dataHoje.getDate())) + "/" + ((dataHoje.getMonth() + 1)) + "/" + dataHoje.getFullYear();
+    document.getElementById('data_atual').innerHTML = diaMesAno;
+}
+
+anoAtual();
+
 
