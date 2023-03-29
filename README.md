@@ -6,8 +6,8 @@ Detalhes do serviço:
 -Foram feitas várias entrevistas com o cliente final, onde decidimos como ficaria de fato a página.
 
 Ferramentas utilizadas:
-Trello : onde me ajudou a gerenciar cada tipo de tarefa e finaliza-lás por etapas.
-Html: Marcação de texto
+<strong>Trello:</strong> onde me ajudou a gerenciar cada tipo de tarefa e finaliza-lás por etapas.
+<strong>Html:</strong> Marcação de texto
 Css: Folhas de estilos em cascata, utilizada para melhorar a experincia do usuário.
 Bootstrap: Ajudou a aceleração do projeto com os seus compenentes prontos.
 Js: Para o site ter interações, evitar que a página se torne algo estático.
