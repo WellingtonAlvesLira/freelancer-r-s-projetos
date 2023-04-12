@@ -15,5 +15,5 @@ Ferramentas utilizadas:<br>
 Duração do projeto:
 Cerca de 2 meses.
 
-Hospedado em:  Netlify
-Url/Endere: https://resmoveisplanejados.netlify.app/index.html
+Hospedado em:  <strong>Netlify</strong><br>
+Url/Endereço: https://resmoveisplanejados.netlify.app/index.html
